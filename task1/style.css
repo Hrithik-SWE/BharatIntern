@@ -7,9 +7,7 @@ box-sizing: border-box;
 }
 body{
     min-height: 100vh;
-    background-image: url(/images/15201.jpg);
-    background-size: cover;
-    background-position: center;
+    
 }
 html{
     scroll-behavior: smooth;
@@ -44,7 +42,7 @@ left: 0;
  position:absolute;
  width: 100%;
  height: 100%;
- background: linear-gradient(90deg,transparent,rgba(255,255,255,.4),transparent);
+ background: linear-gradient(90deg,transparent,rgba(250, 144, 5, 0.4),transparent);
  transition: .5s;
 }
 .header:hover:after{
@@ -53,13 +51,13 @@ left: 0;
 }
 .logo{  
     font-size: 1.3rem;
-    color: black;
+    color: white;
     text-decoration: none;
     font-weight: 700;
 }
 .navbar a{
     font-size: 1rem;
-    color: black;
+    color: white;
     text-decoration: none;
     font-weight: 500;
     margin-left: 1rem;
@@ -71,23 +69,81 @@ left: 0;
     position: absolute  ;
     font-size: 2.8rem;
     right: 5%;
-    color:black;
+    color:white;
     cursor: pointer;
     display: none;
 }
 /*mid content*/
-#home,
-#about,
-#certs{
-    height: 700px;
-}
+
 #home{
-    background-color: blue;
+    background-image:  linear-gradient(rgb(0, 0, 0,0.5),rgba(0,0,0,0.5)), url(/images/5076404.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.quote{
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #about{
+    height: 600px;
+    padding: 78px 0;
+
     background-color: aliceblue;
 }
+#about img{
+    height: auto;
+    width: 300px;
+    border-radius: 50px;
+}
+.about-text{
+    width: 700px;
+
+}
+.about-main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.about-text h1{
+    color: black;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+span{
+    color: #f9004d;
+}
+.about-text p{
+    color: blue;
+        letter-spacing: 1px;
+        line-height: 28px;
+        font-size: 15px;
+        margin-bottom: 45px;
+}
 #certs{
+    height: 700px;
+
     background-color: burlywood;
 }
 /*breakpoints*/
