@@ -143,11 +143,13 @@ left: 0;
 span{
     color: #45A29E;
 }
-container{
+.container{
+    background-color: #0b0c10;
 	position: relative;
 	width: 100%;
 	min-height: 100vh;
 	padding: 30px 10%;
+ 
 }
 .container .main-title{
 	max-width: 700px;
@@ -158,7 +160,7 @@ container{
 .container .main-title h1{
 	position: relative;
 	font-size: 40px;
-	color: #242223;
+	color: #66FCF1;
 	margin-bottom: 30px;
 	display: inline-block;
 }
@@ -176,18 +178,18 @@ container{
 	position: absolute;
 	width: 50%;
 	height: 3px;
-	background-color: #d03645;
+	background-color: #45A29E;
 	top: calc(125% - 1px);
 	left: 50%;
 	transform: translateX(-50%);
 }
 .main-title p{
-	color: #808080;
+	color: #C5C6C7;
 }
 .container .row{
 	width: 100%;
 	display: flex;
-	justify-content:space-around;
+	justify-content:space-between;
 	margin-top: 50px;
    
    
@@ -197,7 +199,7 @@ container{
 }
 .row .sub-title h2{
 	position: relative;
-	color: #242223;
+	color: #49c5b6;
 	font-size: 22px;
 	font-family: helvetica;
 	display: inline-block;
@@ -219,12 +221,12 @@ container{
 	height: 3px;
 	top: calc(125% - 1px);
 	left: 0;
-	background-color: #d03645;
+	background-color: #45A29E;
 }
 .subject{
 	font-size: 18px;
 	font-weight: thin;
-	color: #808080;
+	color:#C5C6C7;
 	padding-bottom: 15px;
 	text-transform: uppercase;
 }
@@ -248,7 +250,7 @@ container{
 	position: absolute;
 	width: 0%;
 	height: 7px;
-	background-color: #d03645;
+	background-color:#45A29e;
 	border-radius: 15px;
 	top: -1px;
 	animation: animate 1.5s cubic-bezier(1, 0.2, 0.2, 1) forwards;
@@ -267,7 +269,7 @@ container{
 	top: 50%;
 	left: 100%;
 	transform: translate(-50%, -50%);
-	background-color: #d03645;
+	background-color: #66FCF1;
 }
 
 
