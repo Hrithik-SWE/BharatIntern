@@ -94,52 +94,30 @@ left: 0;
   font-style: italic;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-#about{
-    height: 600px;
-    padding: 78px 0;
-
-    background-color: aliceblue;
+.aboutm{
+   width: 100%;
+   height: 100vh;
+   background-color: wheat;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
-#about img{
+.aboutm .content img{
     height: auto;
-    width: 300px;
-    border-radius: 50px;
+    width: 600px;
+    max-width: 100%;
 }
-.about-text{
-    width: 700px;
-
+.text{
+    width: 550px;
+    max-width: 100%;
+    padding: 0 10px;
 }
-.about-main{
-    width: 1130px;
+.content{
+    width: 1280px;
     max-width: 95%;
     margin: 0 auto;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-   
-}
-.about-text h1{
-    color: black;
-    font-size: 80px;
-    text-transform: capitalize;
-    margin-bottom: 20px;
-}
-.about-text h5{
-    
-    font-size: 20px;
-    text-transform: capitalize;
-    margin-bottom: 25px;
-    letter-spacing: 2px;
-}
-span{
-    color: #f9004d;
-}
-.about-text p{
-    color: blue;
-        letter-spacing: 1px;
-        line-height: 28px;
-        font-size: 15px;
-        margin-bottom: 45px;
+    flex-wrap:wrap;
 }
 #certs{
     height: 700px;
@@ -202,3 +180,4 @@ span{
     }
     
 }
+
