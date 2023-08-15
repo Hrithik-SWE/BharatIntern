@@ -118,12 +118,40 @@ left: 0;
     margin: 0 auto;
     display: flex;
     flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.text h1{
+   color: blueviolet;
+   font-size: 85px;
+   margin-top: 20px;
+   text-transform: capitalize;
+}
+.text h5{
+    color: white;
+  font-size: 20px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+.text p{
+     color: black;
+     font-size: 18px;
+     letter-spacing: 1px;
+     margin-bottom: 45px;
 }
 #certs{
     height: 700px;
 
     background-color: burlywood;
 }
+
+
+
+
+
+
+
 /*breakpoints*/
 @media (max-width:992px){
 
@@ -180,4 +208,21 @@ left: 0;
     }
     
 }
+@media screen and (max-width:1180px){
+    .aboutm{
+        width: 100%;
+        height: auto;
+        padding: 70px 0;
+        
+    }
+}
+@media screen and (max-width:650px){
+    .aboutm .content img{
+        margin-bottom: 35px;
 
+    }
+    .text h1 {
+        font-size: 60px;
+        margin-bottom: 25px;
+    }
+}
