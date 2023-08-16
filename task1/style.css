@@ -127,13 +127,13 @@ left: 0;
    align-items: center;
 }
 .aboutm .content img{
-    height: 500px;
+    height: 450px;
     width: auto;
     max-width: 100%;
     border-radius: 10px;
 }
 .text{
-    width: 550px;
+    width: 700px;
     max-width: 100%;
     padding: 0 10px;
 }
@@ -182,7 +182,8 @@ span{
 	max-width: 700px;
 	margin: 0px auto;
 	text-align: center;
-	font-family: helvetica;
+	
+    text-transform: capitalize;
 }
 .container .main-title h1{
 	position: relative;
@@ -190,6 +191,7 @@ span{
 	color: #66FCF1;
 	margin-bottom: 30px;
 	display: inline-block;
+  
 }
 .container .main-title h1::before{
 	content: '';
@@ -211,6 +213,7 @@ span{
 	transform: translateX(-50%);
 }
 .main-title p{
+    font-family: 'Grandstander', cursive;
 	color: #C5C6C7;
 }
 .container .row{
@@ -347,6 +350,7 @@ span{
     position: relative;
     border-radius: 6px;
     font-size: 15px;
+    font-family: 'Grandstander', cursive;
 }
 .left-container{
     left: 0;
