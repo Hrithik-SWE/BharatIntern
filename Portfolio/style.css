@@ -283,7 +283,7 @@ span{
 	background-color:#45A29e;
 	border-radius: 15px;
 	top: -1px;
-	animation: animate 7s cubic-bezier(1, 0.2, 0.2, 1) forwards;
+	animation: animate 9s cubic-bezier(1, 0.2, 0.2, 1) forwards;
 }
 @keyframes animate{
 	100%{
